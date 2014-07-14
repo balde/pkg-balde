@@ -1,4 +1,4 @@
-balde (0.1.2-2~ppa1~precise1) precise; urgency=medium
+balde (0.1.2-2~ppa1~utopic1) utopic; urgency=medium
 
   [ Rafael Goncalves Martins ]
   * removed libbalde-template0 package
