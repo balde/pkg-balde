@@ -1,9 +1,9 @@
-balde (0.1.2-2) UNRELEASED; urgency=medium
+balde (0.1.2-2) unstable; urgency=medium
 
   [ Rafael Goncalves Martins ]
   * removed libbalde-template0 package
 
- -- Rafael Goncalves Martins <rafael@rafaelmartins.eng.br>  Mon, 14 Jul 2014 17:11:17 -0300
+ -- Rafael Goncalves Martins <rafael@rafaelmartins.eng.br>  Mon, 14 Jul 2014 17:18:41 -0300
 
 balde (0.1.2-1) unstable; urgency=medium
 
