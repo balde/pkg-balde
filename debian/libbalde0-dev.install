@@ -1,0 +1,4 @@
+usr/include/*
+usr/lib/*/libbalde.so
+usr/lib/*/libbalde.a
+usr/lib/*/pkgconfig/*

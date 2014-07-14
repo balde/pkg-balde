@@ -1,0 +1,63 @@
+Source: balde
+Priority: optional
+Maintainer: Rafael G. Martins <rafael@rafaelmartins.eng.br>
+Build-Depends: debhelper (>= 9.0.0),
+               autotools-dev,
+               automake1.11,
+               libglib2.0-dev (>= 2.34.3),
+               libfcgi-dev,
+               shared-mime-info,
+               peg,
+               libxml2-utils
+Standards-Version: 3.9.5
+Section: libs
+Homepage: http://balde.io/
+Vcs-Git: git://github.com/balde/pkg-balde.git
+Vcs-Browser: https://github.com/balde/pkg-balde
+
+Package: balde-tools
+Section: devel
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         libbalde0 (= ${binary:Version}),
+         libbalde-template0 (= ${binary:Version}),
+         libglib2.0-0 (>= 2.34.3)
+Description: Microframework for C based on GLib and bad intentions
+ .
+ (Helper tools)
+
+Package: libbalde0-dev
+Section: libdevel
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         libbalde0 (= ${binary:Version}),
+         libglib2.0-dev,
+         libfcgi-dev
+Description: Microframework for C based on GLib and bad intentions
+ .
+ (Development files)
+
+Package: libbalde0
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         libglib2.0-0 (>= 2.34.3),
+         libglib2.0-bin (>= 2.34.3),
+         libfcgi,
+         shared-mime-info
+Description: Microframework for C based on GLib and bad intentions
+ .
+ (Main shared library)
+
+Package: libbalde-template0
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         libglib2.0-0 (>= 2.34.3)
+Description: Microframework for C based on GLib and bad intentions
+ .
+ (Template generator library - internal)
